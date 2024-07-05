@@ -148,3 +148,55 @@
 .statText {
   position: absolute;
 }
+
+.forestImage {
+  height: 100vh;
+  width: 100%;
+  align-items: center;
+  object-fit: cover;
+}
+
+.aboutUs {
+  width: 100%;
+  height: 230vh;
+  background-color: #1b3936;
+  position: relative;
+}
+
+.aboutFirstSectionImage {
+  display: flex;
+  justify-content: space-between;
+}
+
+.aboutImage1 {
+  width: 410px;
+  height: 342px;
+  border-radius: 8px;
+  position: absolute;
+  left: 3%;
+  top: 17%;
+}
+.aboutImage2 {
+  width: 400px;
+  height: 525px;
+  border-radius: 8px;
+  position: absolute;
+  right: 3%;
+  top: 3%;
+}
+.aboutImage3 {
+  width: 400px;
+  height: 525px;
+  border-radius: 8px;
+  position: absolute;
+  bottom: 5%;
+  left: 7%;
+}
+.aboutImage4 {
+  width: 400px;
+  height: 525px;
+  border-radius: 8px;
+  position: absolute;
+  bottom: 4%;
+  right: 7%;
+}
