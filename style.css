@@ -11,7 +11,6 @@
   font-family: "Switzer";
   src: url("fonts/Switzer-Variable.woff2") format("woff2");
   src: url("fonts/Switzer-Light.woff2") format("woff2");
-  src: url("fonts/Switzer-Bold.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
 }
@@ -228,4 +227,43 @@
   width: 100%;
   height: 100%;
   margin: auto;
+}
+
+.colectionTitle {
+  font-weight: 400;
+  font-size: 68px;
+  line-height: 85px;
+  color: #1b3936;
+  padding-left: 70px;
+}
+
+/* Collection Image  */
+.collectionImage {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.cImg1 {
+  width: 300px;
+  height: 405px;
+  margin-left: 21px;
+}
+.cImg2 {
+  width: 482px;
+  height: 678px;
+  margin-left: 21px;
+}
+.c2ImgText {
+  display: flex;
+  justify-content: space-between;
+  gap: 100px;
+}
+.arrowIcon {
+  width: 40px;
+  height: 40px;
+}
+.cImg3 {
+  width: 300px;
+  height: 405px;
+  margin-left: 21px;
 }
