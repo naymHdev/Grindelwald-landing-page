@@ -99,3 +99,19 @@
   left: 50%;
   transform: translate(-50%, -50%);
 }
+
+#borderRound {
+  width: 790px;
+  height: 790px;
+  border: 2px dashed #75ff69;
+  position: absolute;
+  top: -10%;
+  border-radius: 100%;
+}
+#videoIcon {
+  width: 70px;
+  height: 70px;
+  position: absolute;
+  top: 50%;
+  right: 14.6%;
+}
