@@ -1,3 +1,6 @@
+body {
+  margin: 0;
+}
 @font-face {
   font-family: "Boska";
   src: url("fonts/Boska-Variable.woff2") format("woff2");
@@ -253,17 +256,58 @@
   height: 678px;
   margin-left: 21px;
 }
+
 .c2ImgText {
   display: flex;
   justify-content: space-between;
   gap: 100px;
 }
-.arrowIcon {
-  width: 40px;
-  height: 40px;
-}
+
 .cImg3 {
   width: 300px;
   height: 405px;
   margin-left: 21px;
+}
+
+/* News letter section */
+.newsLatterImage {
+  width: 850px;
+  height: auto;
+  margin: auto;
+  object-fit: cover;
+  padding-top: 25px;
+}
+
+/* Email container */
+.email-container {
+  display: flex;
+  width: 570px;
+  height: 60px;
+  position: absolute;
+  bottom: 20%;
+  left: 27%;
+}
+
+.email-input {
+  flex: 1;
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  outline: none;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.email-button {
+  padding: 0 20px;
+  font-size: 16px;
+  border: none;
+  outline: none;
+  background-color: #00ff84;
+  color: black;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.email-button:hover {
+  background-color: #00cc6b;
 }
