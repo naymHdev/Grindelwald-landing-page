@@ -1,6 +1,7 @@
 @font-face {
   font-family: "Boska";
   src: url("fonts/Boska-Variable.woff2") format("woff2");
+  src: url("fonts/Boska-Bold.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
 }
@@ -8,6 +9,7 @@
 @font-face {
   font-family: "Switzer";
   src: url("fonts/Switzer-Variable.woff2") format("woff2");
+  src: url("fonts/Switzer-Light.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
 }
@@ -114,4 +116,35 @@
   position: absolute;
   top: 50%;
   right: 14.6%;
+}
+
+/* State section design */
+#stateSection {
+  background-color: white;
+  position: relative;
+  display: flex;
+  gap: 150px;
+  justify-content: space-between;
+  padding: 80px 0px 50px 50px;
+}
+.flexItem {
+  flex: 1;
+}
+.stateDetails {
+  color: black;
+  text-align: start;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 31px;
+}
+
+.stateNumber {
+  font-weight: 700;
+  font-style: italic;
+  font-size: 100px;
+  position: relative;
+  margin-top: -10px;
+}
+.statText {
+  position: absolute;
 }
