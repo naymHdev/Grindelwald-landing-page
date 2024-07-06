@@ -12,8 +12,6 @@ Check out the live demo of the project [here](https://grindelwald-landing-page.v
 
 ## Features
 
-- **Responsive Design**: Optimized for different screen sizes including desktops, tablets, and mobile devices.
-- **Clean and Modern Aesthetics**: A sleek design that is visually appealing and user-friendly.
 - **Vanilla CSS**: Styled using pure CSS, without any external frameworks.
 - **HTML5**: Structured with semantic HTML5 elements for better accessibility and SEO.
 
