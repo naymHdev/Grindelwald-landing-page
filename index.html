@@ -508,8 +508,16 @@
 
     <!-- Footer section -->
     <section>
-      <div style="display: flex; flex-direction: column; align-items: center">
-        <div style="display: flex; width: 100%">
+      <div
+        style="
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          position: relative;
+          margin-top: 100px;
+        "
+      >
+        <div style="display: flex; width: 100%; height: 300px">
           <div
             style="
               background-color: #75ff69;
@@ -517,14 +525,31 @@
               display: flex;
               flex-direction: column;
               justify-content: center;
-              align-items: center;
               padding: 20px;
+              text-align: start;
             "
           >
-            <h1 style="margin: 0; font-size: 2em">About</h1>
-            <p style="margin: 0">Us in a true way</p>
-            <div style="margin-top: 10px">&#x1F985;</div>
-            <!-- Bird icon placeholder -->
+            <h1
+              class="boska"
+              style="margin: 0; font-size: 2em; text-align: center"
+            >
+              About
+            </h1>
+            <p class="switzer" style="margin: 0; margin-left: 150px">
+              Us in a true way
+            </p>
+            <img
+              style="
+                width: 155px;
+                height: 155px;
+                position: absolute;
+                bottom: 5%;
+                left: 23%;
+                transform: rotate(220deg);
+              "
+              src="/assets/left_arrow_icon.png"
+              alt=""
+            />
           </div>
           <div
             style="
@@ -537,23 +562,34 @@
               color: #fff;
             "
           >
-            <div style="text-align: center">
-              <p style="margin: 0">See our</p>
-              <h1 style="margin: 0; font-size: 2em">Rooms</h1>
-              <div style="margin-top: 10px">&#x1F985;</div>
-              <!-- Bird icon placeholder -->
+            <div style="text-align: left">
+              <p class="switzer" style="margin-bottom: -20px">See our</p>
+              <div style="display: flex; align-items: center">
+                <h1 class="boska" style="margin: 0; font-size: 2em">Rooms</h1>
+                <img
+                  style="width: 150px; height: 150px; transform: rotate(220deg)"
+                  src="/assets/left_arrow_icon.png"
+                  alt=""
+                />
+              </div>
             </div>
-            <div style="text-align: center">
-              <p style="margin: 0">You can</p>
-              <h1 style="margin: 0; font-size: 2em">Contact</h1>
-              <div style="margin-top: 10px">&#x1F985;</div>
-              <!-- Bird icon placeholder -->
+            <div style="text-align: left">
+              <p class="switzer" style="margin-bottom: -20px">You can</p>
+              <div style="display: flex; align-items: center">
+                <h1 class="boska" style="margin: 0; font-size: 2em">Contact</h1>
+                <img
+                  style="width: 150px; height: 150px; transform: rotate(220deg)"
+                  src="/assets/left_arrow_icon.png"
+                  alt=""
+                />
+              </div>
             </div>
           </div>
         </div>
 
         <!-- 2nd Footer -->
-        <div class="switzer"
+        <div
+          class="switzer"
           style="
             display: flex;
             justify-content: center;
